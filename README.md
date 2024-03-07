@@ -10,12 +10,12 @@ This program will take input from a text file whose path is taken as an argument
 6. Type the command “conda activate my_yaml_env”
 7. Navigate to the file location of the run.py file using the cd command
 8. Run the file with the command “python run.py path" where path is the relative or absolute path of the text file containing the URLs. For example, if the file is named "url.txt" and in the same directory
-,,,
+'''
 python run.py url.txt
-,,,
+'''
 Or, if the file is named "input.txt" within the Documents folder where username is the username of the current user
-,,,
+'''
 python run.py C:\Users\username\Documents\input.txt
-,,,
+'''
 9. The output will be in 5 text files named “article1.txt,” “article2.txt,” etc. within the processed folder in Data
 10. Additional information such as the headline, author, and date can be found in the raw folder in Data
